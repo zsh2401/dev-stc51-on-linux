@@ -30,3 +30,18 @@ void delay100ms(){
         }while(--j);
     }while(--i);
 }
+void delay1mst(uint16_t times){
+    for(uint16_t i =0;i<times;i++){
+        delay1ms();
+    }
+}
+void delay10mst(uint16_t times){
+    for(uint16_t i =0;i<times;i++){
+        delay10ms();
+    }
+}
+void delay100mst(uint16_t times){
+    for(uint16_t i =0;i<times;i++){
+        delay100ms();
+    }
+}
