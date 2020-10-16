@@ -3,6 +3,13 @@
 
 #include <8052.h>
 
+#define INT8_MAX 255
+#define INT8_MIN -256
+#define INT16_MAX 32767
+#define INT16_MIN -32768
+#define INT32_MAX 2147483647
+#define INT32_MIN -2147483648
+
 typedef int int16_t;
 typedef long int32_t;
 typedef char int8_t;
